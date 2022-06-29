@@ -1,0 +1,111 @@
+* {
+    color: rgb(46, 46, 80);
+}
+
+body {
+    background: linear-gradient(rgb(192, 192, 238), rgb(245, 245, 250)) fixed;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    min-width: 600px;
+}
+
+/* Header */
+
+.header {
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid rgb(46, 46, 80);
+}
+
+.header-link {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    background-color: rgb(160, 160, 207);
+}
+
+/* Main */
+
+.name {
+    text-align: center;
+
+    font-family: "PT Serif", "Times New Roman", serif; 
+}
+
+.img {
+
+    text-align: center;
+	padding: 30px;
+    background-color: rgb(192, 192, 238);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.blocks {
+    flex-direction: row;
+}
+
+.info {
+    padding-left: 30px;
+}
+
+.photo {
+    padding: 30px;
+    background-color: rgb(160, 160, 207);  
+}
+
+.title {
+    border-top: 1px solid rgb(46, 46, 80, 0.3);
+    padding-top: 10px;
+
+    font-family: "PT Serif", "Times New Roman", serif; 
+}
+.header-link {
+    text-decoration: none;
+    padding: 2px 8px;
+}
+
+/* Footer */
+
+.footer {
+    border-top: 1px solid rgb(46, 46, 80);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.link {
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(160, 160, 207, 0.5); 
+}
+
+.link:hover {
+    text-decoration: underline;
+    background-color: rgb(160, 160, 207);
+}
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url(../fonts/OpenSans-Regular.ttf);
+   }
+
+@font-face {
+    font-family: "Open Sans", sans-serif;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: "PT Serif", serif;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "PT Serif", serif;
+    src: url(../fonts/PTSerif-Bold.ttf);
+}
